@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collection Photo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Comic Sans MS', cursive;
+    }
+    body {
+      background: #ffe6f0;
+      color: #d63384;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .nav {
+      margin-bottom: 2rem;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #fff;
+      background: #ff69b4;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .nav a:hover {
+      background: #ff1493;
+    }
+    img.cute {
+      width: 200px;
+      margin-top: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 15px #ffb6c1;
+      animation: float 2s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Collection Photo</h1>
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="album.html">Album</a>
+  </div>
+  <p>Welcome to album collection 💖</p>
+  <img src="https://i.imgur.com/LK5YU1j.png" alt="Cute Cat" class="cute" />
+</body>
+</html>
